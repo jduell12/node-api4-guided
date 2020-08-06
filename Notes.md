@@ -8,3 +8,5 @@
   - reads from environment and if the environment isn't set the port is 5000
 - needs a start script for Heroku to know how to start api
   - don't use nodemon to start server --> use node
+- dotenv to create environment file (aka .env file)
+  - gives each developer the ability to have different values for the environment variables

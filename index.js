@@ -1,3 +1,4 @@
+require("dotenv").config();
 const server = require("./api/server.js");
 
 //reads the port from the environment
